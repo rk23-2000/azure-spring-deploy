@@ -17,7 +17,7 @@ public class SpringAzureController {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Hello!! This is Spring application deployed in Azure";
+		return "Hello!!  This is Spring application deployed in Azure";
 	}
 	@GetMapping("/authors")
 	public String getAuthors() throws URISyntaxException, IOException, InterruptedException {
